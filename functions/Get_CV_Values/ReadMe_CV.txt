@@ -1,0 +1,2 @@
+Es empfiehlt sich jeweils 20 Zyklen über search_cv_values zu generieren und die einzelnen Matrizen anschließend zu verknüpfen.
+Die Funktion set_cv_values nutzt als Eingang die Matrizen von search_cv_values und setzt die Grenzwerte für die Berechnung des CV-Wertes
