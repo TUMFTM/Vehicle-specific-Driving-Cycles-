@@ -1,0 +1,11 @@
+Comand Line zum starten der Zykluskonstruktion:
+[dc,dc_cell, cycle_analytics_result,CV,p_matrix] = comp_dc(vehicle_class, order_markov_chain)
+
+Für vehicle_class kann eingesetzt werden: small, small_bev, compact, compact_bev, executive, executive_bev
+Für order_markov_chain kann 1 oder 2 genutzt werden
+
+Im Ordner data sind die Fahrdaten abzulegen, die zur Zykluskonstruktion herangezogen werden
+
+Fahrzeugdaten können in /functions/Zykluskonstruktion_FE_1/create_cycle.m verändert werden
+
+Kriterien zur Zustandserkennung (Kap. 5.3) können in /functions/Zustandserkennung_FE_3/prestate_drivesequence.m
